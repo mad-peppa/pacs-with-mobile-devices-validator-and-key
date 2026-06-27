@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Валидатор</string>
+    <string name="waiting_screen_content_description">Ожидание ввода</string>
+    <string name="checking_screen_title">Проверка…</string>
+    <string name="access_granted_screen_title">Вход разрешен</string>
+    <string name="access_denied_screen_title">Вход запрещен</string>
+    <string name="error_screen_title">Возникла ошибка</string>
+    <string name="error_lost_card_description">Связь с картой утеряна. Попробуйте еще раз</string>
+    <string name="error_bad_connection_to_server">Не удалось подключиться к серверу</string>
+    <string name="error_bad_connection_to_server_message">Сообщение</string>
+    <string name="error_card_data_is_empty">Данные отсутствуют</string>
+    <string name="error_unknown">Неизвестная ошибка</string>
+    <string name="text_field_label">Введите имя валидатору</string>
+    <string name="button_continue_text">Начать работу</string>
+</resources>

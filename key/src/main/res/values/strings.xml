@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Электронный ключ</string>
+    <string name="enterIdScreen_enterField_label">Введите ваш ID:</string>
+    <string name="enterIdScreen_buttonStartWork_text">Начать работу</string>
+    <string name="appWorksInBackgroundScreen_label">Приложение начало работать в фоновом режиме. Передайте ключ вашему системному администратору</string>
+    <string name="appWorksInBackgroundScreen_label2">Перед поднесением смартфона к валидатору, вы должны включить смартфон. Вновь открывать приложение нет необходимости</string>
+    <string name="appWorksInBackgroundScreen_label_to_id">Ваш ID:</string>
+    <string name="appWorksInBackgroundScreen_label_to_public_key">Ваш ключ:</string>
+    <string name="appWorksInBackgroundScreen_buttonChangeId_text">Изменить ID</string>
+    <string name="copyButton_description">Скопировать</string>
+    <string name="toClipboard_copiedDataLabel">ID и публичный ключ</string>
+    <string name="toClipboard_copiedIdLabel">Мой ID</string>
+    <string name="toClipboard_copiedPublicKeyLabel">Мой публичный ключ</string>
+    <string name="copyButton_dataCopiedSuccessfully">ID и ключ скопированы!</string>
+</resources>
