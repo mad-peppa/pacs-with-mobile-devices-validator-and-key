@@ -185,12 +185,7 @@ class MainActivity : ComponentActivity() {
             verticalArrangement = Arrangement.SpaceBetween
         ) {
             Column(modifier = Modifier.padding(10.dp)) {
-                Image(
-                    painter = painterResource(R.drawable.logo),
-                    contentDescription = "",
-                    modifier = Modifier.size(120.dp)
-                )
-                Spacer(Modifier.height(40.dp))
+                Spacer(Modifier.height(100.dp))
                 Text(
                     text = stringResource(R.string.appWorksInBackgroundScreen_label),
                     style = Typography.bodyLarge
