@@ -37,6 +37,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.lifecycleScope
@@ -167,7 +168,7 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
-
+    @Preview
     @Composable
     fun AppWorksInBackgroundScreen() {
         var employeeId by remember { mutableStateOf("") }
@@ -186,8 +187,8 @@ class MainActivity : ComponentActivity() {
             Column(modifier = Modifier.padding(10.dp)) {
                 Image(
                     painter = painterResource(R.drawable.logo),
-                    contentDescription = null,
-                    modifier = Modifier.size(130.dp)
+                    contentDescription = "",
+                    modifier = Modifier.size(120.dp)
                 )
                 Spacer(Modifier.height(40.dp))
                 Text(
@@ -202,21 +203,23 @@ class MainActivity : ComponentActivity() {
                 Spacer(Modifier.height(40.dp))
                 Text(
                     text = stringResource(R.string.appWorksInBackgroundScreen_label_to_id),
-                    style = Typography.bodyLarge
+                    style = Typography.bodyLarge,
+                    fontWeight = FontWeight.Bold
                 )
                 Text(
                     text = employeeId,
-                    style = Typography.bodyLarge
+                    style = Typography.bodyLarge,
                 )
                 Spacer(Modifier.height(20.dp))
                 Text(
                     text = stringResource(R.string.appWorksInBackgroundScreen_label_to_public_key),
-                    style = Typography.bodyLarge
+                    style = Typography.bodyLarge,
+                    fontWeight = FontWeight.Bold
                 )
                 BasicTextField(
                     value = publicKey,
                     onValueChange = { publicKey = it },
-                    maxLines = 1,
+                    maxLines = 3,
                     readOnly = true,
                     textStyle = Typography.bodyLarge,
                     modifier = Modifier
