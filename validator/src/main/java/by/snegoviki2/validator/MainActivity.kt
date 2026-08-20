@@ -283,12 +283,7 @@ class MainActivity : ComponentActivity(), NfcAdapter.ReaderCallback {
             verticalArrangement = Arrangement.SpaceBetween
         ) {
             Column(modifier = Modifier.padding(10.dp)) {
-                Image(
-                    painter = painterResource(R.drawable.logo),
-                    contentDescription = null,
-                    modifier = Modifier.size(130.dp)
-                )
-                Spacer(Modifier.height(80.dp))
+                Spacer(Modifier.height(210.dp))
                 Text(
                     text = stringResource(R.string.text_field_label),
                     style = Typography.bodyLarge
